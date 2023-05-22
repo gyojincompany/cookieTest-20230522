@@ -19,7 +19,7 @@
 			response.addCookie(cookie1);//클라이언트의 컴퓨터로 서버에서 생성한 쿠키가 전송
 			response.addCookie(cookie2);//클라이언트의 컴퓨터로 서버에서 생성한 쿠키가 전송			
 			
-			response.sendRedirect("login_success.jsp");
+			response.sendRedirect("login_success2.jsp");
 		} else {
 			response.sendRedirect("login_fail.jsp");
 		}
